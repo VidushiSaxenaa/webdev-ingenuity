@@ -1,0 +1,34 @@
+h1{
+    color:#000000 ; 
+    text-align: center;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+h2{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

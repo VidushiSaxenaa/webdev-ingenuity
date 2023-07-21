@@ -1,0 +1,53 @@
+h1{
+    color:#09f7ff ; 
+    left: 0;
+    line-height: 200px;
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+h3{
+    color: #ffffff;
+    text-align: middle;
+    font-weight: normal;
+    left: 0;
+    line-height: 200px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    
+}
+.img{
+
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    background-color: rgb(181, 220, 233);  
+    color: black;  
+    font-size: 30px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin: auto;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    padding: 9px 13px;
+    left: 0;
+    line-height: 50px;
+    margin-top: 560px;
+    position: center;
+    top: 80%;
+    width: 10%;
+    border-radius: 25%;
+    border-style: none; 
+}
