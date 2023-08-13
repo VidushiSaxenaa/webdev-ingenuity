@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEBSITE</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      padding: 15px;
+    }
+
+    header {
+      width: 100%;
+      background-color: grey;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    main {
+      width: 100%;
+    }
+
+    section.banner {
+      margin-top: 15px;
+      width: 100%;
+      height: 80vh;
+      background-color: rgb(196, 226, 240);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      }
+
+    section.banner img.l1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 80vh;
+      width: fit-content;
+    }
+
+    section.sec-1 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    section.sec-1 .circle {
+      width: 200px;
+      height: 200px;
+      background-color: rgb(221, 178, 59);
+      border-radius: 50%;     
+      
+    }
+
+    section.sec-1 .circle img.p1 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: first baseline;
+      margin-top: 0px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;     
+
+    }
+
+    section.sec-2 {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    section.sec-2::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    section.sec-2 article {
+      float: left;
+      width: 50%;
+      height: 500px;
+      background-color: rgb(185, 146, 82);
+      font-size: 20px;
+      font-weight: normal;
+      font-style: oblique;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: bottom;
+    }
+
+    section.sec-2 aside {
+      width: 45%;
+      float: right;
+      height: 500px;
+      /* background-color: greenyellow; */
+      display: flex;
+      flex-direction: column;
+    }
+
+    section.sec-2 aside .rightsidebar {
+      width: 100%;
+      background-color: rgba(125, 201, 122, 0.753);
+      height: 30%;
+      margin-bottom: 2%;
+    }
+
+    section.sec-2 aside .rightsidebar img.pr {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 2%; 
+   }
+
+    section.sec-2 aside #lastsidebar {
+      margin-bottom: 2%;
+    }
+
+    section.sec-2 aside #lastsidebar img.prr {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 2%;
+    } 
+
+    section.sec-3 {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: space-evenly;
+      align-content: center;
+      margin-top: 15px;
+    }
+
+    section.sec-3 .grid {
+      width: 20%;
+      height: 100%;
+      background-color: rgb(238, 60, 60);
+      
+    }
+    section.sec-3 .grid img.t{
+      width: 100%;
+      height: 100%;
+
+    }
+
+    footer {
+      margin-top: 15px;
+      background-color: rgb(19, 18, 18);
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    }
+
+    footer p {
+      color: beige;
+    }
+
+
+    h1 {
+      text-align: center;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner"><img class="l1" src="img/laptop1.jpg" ></section>
+      <h1>TEAM MEMBERS</h1>
+      <section class="sec-1">
+        <div class="circle"><img class="p1" src="img/p1.jpg"></div>
+        <div class="circle"><img class="p1" src="img/p2.jpg"></div>
+        <div class="circle"><img class="p1" src="img/p3.jpg"></div>
+        <div class="circle"><img class="p1" src="img/p4.jpg"></div>
+      </section>
+      <h1>ABOUT</h1>
+      <section class="sec-2">
+        <article><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></article>
+        <aside>
+          <div class="rightsidebar"><img class="pr" src="img/pr3.jpg" ></div>
+          <div class="rightsidebar"><img class="pr" src="img/pr4.jpg" ></div>
+          <div class="rightsidebar" id="lastsidebar"><img class="prr" src="img/pr5.jpg" ></div>
+        </aside>
+      </section>
+      <h1>TECHNOLOGIES</h1>
+      <section class="sec-3">
+        <div class="grid"><img class="t" src="img/htmll.png" ></div>
+        <div class="grid"><img class="t" src="img/CSS.jpg" ></div>
+        <div class="grid"><img class="t" src="img/jq.jpg" ></div>
+        <div class="grid"><img class="t" src="img/react.png" ></div>
+      </section>
+    </main>
+    <footer><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></footer>
+  </div>
+</body>
+
+</html>
+
